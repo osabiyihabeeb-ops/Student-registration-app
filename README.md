@@ -1,16 +1,39 @@
-# React + Vite
+# 🎓 Student Registration App
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A simple, beautiful React app to register, search, and manage students. Data is saved in the browser, so students don't disappear after refresh!
 
-Currently, two official plugins are available:
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Features
 
-## React Compiler
+- ✅ Register students with Name, Email, Course & Level
+- 🔍 Live search by student name
+- 🗑️ Delete students with one click
+- 💾 Auto-save with `localStorage` - data stays after refresh
+- 📱 Clean, responsive design
+- ⚡ Built with React + Vite
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Tech Stack
 
-## Expanding the Oxlint configuration
+- **React** - UI Library
+- **Vite** - Build Tool
+- **JavaScript (ES6+)** - Logic
+- **CSS** - Styling
+- **localStorage** - Data Persistence
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## 🚀 How To Run It Locally
+
+```bash
+# 1. Clone the repo
+git clone https://github.com/osabiyihabeeb-ops/Student-registration-app.git
+
+# 2. Go into the folder
+cd Student-registration-app
+
+# 3. Install packages
+npm install
+
+# 4. Start the app
+npm run dev
