@@ -1,0 +1,79 @@
+* { box-sizing: border-box; font-family: Arial, sans-serif; }
+
+body { background: #f0f2f5; margin: 0; }
+
+.container { max-width: 700px; margin: 0 auto; padding: 30px 15px; text-align: center; }
+
+.container h1 { color: #1a1a2e; font-size: 32px; margin-bottom: 5px; }
+.subtitle { color: #666; margin-top: 0; }
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  margin: 20px 0;
+}
+
+.card input, .card select {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 14px;
+  flex: 1;
+  min-width: 140px;
+}
+
+.card button {
+  background: #646cff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.card button:hover { background: #535bf2; }
+
+.search {
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+}
+
+.list { display: flex; flex-direction: column; gap: 10px; }
+
+.student-card {
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: left;
+  box-shadow: 0 1px 5px rgba(0,0,0,0.08);
+}
+
+.student-card p { margin: 3px 0; color: #555; }
+.student-card small { color: #888; }
+
+.delete {
+  background: #ff4757;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.card input, .card select, .search {
+  background: white !important;
+  color: #222 !important;
+}
